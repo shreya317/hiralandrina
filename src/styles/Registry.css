@@ -1,0 +1,27 @@
+.Registry {
+    display: flex;
+    flex-direction: column;
+}
+
+.Registry-title {
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.Registry-comingsoon {
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./../media/registry/IMG_8043.jpg");
+    flex-grow: 1;
+    background-size: cover;
+    align-items: center;
+}
+
+.Registry-comingsoon {
+    font-family: 'Sacramento', cursive;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.Registry-comingsoon h1{
+    margin: 30%;
+}

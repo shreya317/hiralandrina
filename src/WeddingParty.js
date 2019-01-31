@@ -1,7 +1,9 @@
 import React from 'react';
+//CSS
+import './styles/WeddingParty.css'
 
 export const WeddingParty = () => (
-<div className='WeddingParty'>
+    <div className='WeddingParty'>
         <h1 className='WeddingParty-title'>Wedding Party</h1>
         <div className='WeddingParty-info'>
             <div className='WeddingParty-desc'>

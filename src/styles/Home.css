@@ -1,5 +1,23 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+.Home-main {
+    flex-grow: 1;
+    background-image: url("./../media/home.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    align-items: center;
+}
+
+
 .Home-names{
     font-family: 'Sacramento', cursive;
-    font-size: 2.5em;
-    text-align: center;
+    font-size: 3.5em;
+    text-align: left;
+    color: white;
+    margin-left: 6%;
+    margin-top: 21%;
 }

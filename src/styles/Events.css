@@ -1,0 +1,66 @@
+.Events {
+    display: flex;
+    flex-direction: column;
+}
+
+.Events-header {
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.Events-desc {
+    display: flex;
+    direction: row;
+    margin: 5%;
+    align-items: center;
+}
+
+.Events-sangeet {
+    flex-grow: 1;
+    background-position: center bottom;
+    background-size: cover;
+    align-items: center;
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./../media/events/orange.jpg");
+  }
+
+.Events-wedding {
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./../media/events/blue.jpg");
+    flex-grow: 1;
+    background-position: center bottom;
+    background-size: cover;
+    align-items: center;
+    background-color: transparent;
+}
+
+.Events-reception {
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./../media/events/red.jpg");
+    flex-grow: 1;
+    background-position: center bottom;
+    background-size: cover;
+    align-items: center;
+    background-color: transparent;
+}
+
+.Events-sangeet .Events-desc,
+.Events-reception .Events-desc {
+    text-align: right;
+    margin-right: 18%;
+    justify-content: flex-end;
+}
+
+.Events-wedding .Events-desc {
+    margin-left: 18%;
+}
+
+.Event-text {
+    font-family: 'Frank Ruhl Libre', serif;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold
+}
+
+.Event-title {
+    font-family: 'Sacramento', cursive;
+    font-size: 1.8em;
+}
