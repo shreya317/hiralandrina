@@ -3,7 +3,9 @@ import './App.css';
 import {NavBar} from './NavBar';
 
 const App = () => (
-  <NavBar/>
+  <div className='Main'>
+    <NavBar/>
+  </div>
 )
 
 export default App;

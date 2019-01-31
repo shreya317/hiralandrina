@@ -38,11 +38,11 @@ export const WeddingParty = () => (
             <div className='WeddingParty-desc'>
                 <h2 className='WeddingParty-info-section'>Hiral's Family</h2>
                 {/* <div className='WeddingParty-img'><a href="" title=""><img height="300" src={require()} alt="Hiral's Parents" title="Hiral's Parents" /></a></div> */}
-                <h3 className='WeddingParty-name'>Parents</h3>
+                <h3 className='WeddingParty-name'>Parents- Snehal and Asha Pithadia</h3>
                 {/* <div className='WeddingParty-img'><a href="" title=""><img height="300" src={require()} alt="Hiral's Sibings" title="Hiral's Sibings" /></a></div> */}
-                <h3 className='WeddingParty-name'>Brother & Sister-in-law - </h3>
+                <h3 className='WeddingParty-name'>Brother & Sister-in-law -Amit and Namrata Pithadia </h3>
                 {/* <div className='WeddingParty-img'><a href="" title=""><img height="300" src={require()} alt="Hiral's Sibings" title="Hiral's Sibings" /></a></div> */}
-                <h3 className='WeddingParty-name'>Brother - </h3>
+                <h3 className='WeddingParty-name'>Brother - Sagar Pithadia </h3>
 
                 <h2 className='WeddingParty-info-section'>Hiral's Groomsmen</h2>
                 {/* <div className='WeddingParty-img'><a href="" title=""><img height="300" src={require()} alt="GM" title="GM"/></a></div> */}
