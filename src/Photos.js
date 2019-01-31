@@ -37,7 +37,7 @@ const PROPOSAL_IMAGES = [
 ]
 
 export const Photos = () => (
-    <div>
+    <div className='Photos'>
         <h1 className='Photos-title'>Photos</h1>
         <div className='Photos-gallery'>
             <Gallery 

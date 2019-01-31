@@ -1,6 +1,9 @@
 .Events {
     display: flex;
     flex-direction: column;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 .Events-header {

@@ -3,7 +3,7 @@ import React from 'react';
 import './styles/Accommodations.css'
 
 export const Accommodations = () => (
-    <div>
+    <div className='Accommodations'>
         <h1 className='Accommodations-title'>Accommodations</h1>
         <p>A room black has been reserved at Hilton Oak Brook Terrace</p>
         <p>10 Drury Lane Oak Brook Terrace, Illinois 60181</p>
