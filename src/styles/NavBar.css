@@ -1,12 +1,17 @@
 .NavBar {
     font-family: 'Frank Ruhl Libre', serif;
-    margin-right: 5%;
-    margin-left: 5%;
+    overflow: hidden;
+    background-color: white;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
 }
 
 .NavBar-container {
     display: flex;
     justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .NavBar-main {
@@ -43,7 +48,7 @@
 }
 
 .NavBar a:hover {
-    color: #9ED4C8;
+    color: blue;
     cursor: pointer;
 }
 

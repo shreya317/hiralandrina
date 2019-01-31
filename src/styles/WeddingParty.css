@@ -2,6 +2,8 @@
     margin-right: 5%;
     margin-left: 5%;
     margin-bottom: 5%;
+    flex-direction: column;
+    padding-top: 5%;
 }
 
 .WeddingParty-title {
@@ -9,3 +11,38 @@
     text-align: center;
     font-size: 3.5em;
 }
+
+.WeddingParty-info {
+    font-family: 'Frank Ruhl Libre', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.WeddingParty-desc {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.WeddingParty-info-section{
+    font-size: 1.5em;
+    text-align: center;
+    color: #2747ad;
+}
+
+.WeddingParty-name {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+/* Medium screens  */
+@media all and (max-width: 800px) {
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+}
+

@@ -5,7 +5,7 @@
     background-color: black;
 }
 
-.VideoModal-video {
+.VideoModal iframe {
     border: none;
 }
 

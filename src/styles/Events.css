@@ -4,6 +4,7 @@
     margin-right: 5%;
     margin-left: 5%;
     margin-bottom: 5%;
+    padding-top: 5%;
 }
 
 .Events-header {
@@ -66,4 +67,29 @@
 .Event-title {
     font-family: 'Sacramento', cursive;
     font-size: 1.8em;
+}
+
+.Events-sangeet .Event-title,
+.Events-reception .Event-title {
+    margin-left: 3%;
+}
+
+.Events-wedding .Event-title {
+    margin-right: 3%;
+}
+
+.Events-sangeet,
+.Events-reception,
+.Events-wedding {
+   margin-bottom: 20px;
+}
+
+.Events button {
+    font-family: 'Frank Ruhl Libre', serif;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
 }
