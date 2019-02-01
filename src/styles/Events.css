@@ -66,16 +66,13 @@
 
 .Event-title {
     font-family: 'Sacramento', cursive;
-    font-size: 1.8em;
+    font-size: 1.9em;
 }
 
 .Events-sangeet .Event-title,
-.Events-reception .Event-title {
-    margin-left: 3%;
-}
-
+.Events-reception .Event-title,
 .Events-wedding .Event-title {
-    margin-right: 3%;
+    margin-right: 4%;
 }
 
 .Events-sangeet,
