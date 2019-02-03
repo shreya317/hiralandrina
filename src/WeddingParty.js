@@ -9,8 +9,8 @@ export const WeddingParty = () => (
             <div className='WeddingParty-desc'>
                 <h2 className='WeddingParty-info-section'>Rina's Family</h2>
                 <div className='WeddingParty-img'><a href="" title=""><img height="400" src={require("./media/weddingparty/soni-family.jpg")} alt="Rina's Parents" title="Rina's Parents" /></a></div>
-                <p className='WeddingParty-name'>Parents - </p>
-                <p className='WeddingParty-name'>Brother - </p>
+                <p className='WeddingParty-name'>Parents: Mukesh & Soni</p>
+                <p className='WeddingParty-name'>Brother: Ravi Soni</p>
 
                 <h2 className='WeddingParty-info-section'>Rina's Bridesmaids</h2>
                 {/* <div className='WeddingParty-img'><a href="" title=""><img height="300" src={require()} alt="Elizabeth" title="Elizabeth"/></a></div> */}
@@ -38,9 +38,9 @@ export const WeddingParty = () => (
             <div className='WeddingParty-desc'>
                 <h2 className='WeddingParty-info-section'>Hiral's Family</h2>
                 <div className='WeddingParty-img'><a href="" title=""><img height="400" src={require("./media/weddingparty/pithadia-family.jpg")} alt="Rina's Parents" title="Rina's Parents" /></a></div>
-                <p className='WeddingParty-name'>Parents - Snehal and Asha Pithadia</p>
-                <p className='WeddingParty-name'>Brother & Sister-in-law -Amit and Namrata Pithadia </p>
-                <p className='WeddingParty-name'>Brother - Sagar Pithadia </p>
+                <p className='WeddingParty-name'>Parents: Snehal and Asha Pithadia</p>
+                <p className='WeddingParty-name'>Brother & Sister-in-law: Amit and Namrata Pithadia </p>
+                <p className='WeddingParty-name'>Brother: Sagar Pithadia </p>
 
                 <h2 className='WeddingParty-info-section'>Hiral's Groomsmen</h2>
                 {/* <div className='WeddingParty-img'><a href="" title=""><img height="300" src={require()} alt="GM" title="GM"/></a></div> */}
