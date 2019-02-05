@@ -25,3 +25,7 @@
 .VideoModal button:hover {
     color: blue;
 }
+
+#ytp-player .ytp-title-channel {
+    display: none;
+}
