@@ -11,6 +11,7 @@ export const WeddingParty = () => (
                 <div className='WeddingParty-img'><a href="" title=""><img height="400" src={require("./media/weddingparty/soni-family.jpg")} alt="Rina's Parents" title="Rina's Parents" /></a></div>
                 <p className='WeddingParty-name'>Parents: Mukesh & Bharati Soni</p>
                 <p className='WeddingParty-name'>Brother: Ravi Soni</p>
+                <p></p>
 
                 <h2 className='WeddingParty-info-section'>Rina's Bridesmaids</h2>
                 {/* <div className='WeddingParty-img'><a href="" title=""><img height="300" src={require()} alt="BM" title="BM"/></a></div> */}
