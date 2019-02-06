@@ -11,17 +11,10 @@ export default class VideoModal extends Component {
         return (
            <div className='VideoModal'>
                 <button className='VideoModal-button' onClick={() => this.handleClick()} >Enter Rina & Hiral's Wedding Website</button>
-                <iframe
-                    id='ytp-player'
-                    className='VideoModal-video'
-                    title={'video'}
-                    height='900' 
-                    width='100%' 
-                    src="https://www.youtube-nocookie.com/embed/0h_bB7dqNso?rel=0&amp;showinfo=0" 
-                    frameborder="0" 
-                >
-                    Video
-                </iframe>
+                <video width="100%" height="900" controls>
+                    <source src={require("./media/rina-hiral.mp4")} type="video/mp4"/>
+                    Your browser does not support the video tag.
+                </video>
             </div>
         )
     }
