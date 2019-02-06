@@ -89,4 +89,6 @@
     cursor: pointer;
     text-decoration: none;
     padding: 5px 20px 5px 20px;
+    border: none;
+    background-color: white;
 }

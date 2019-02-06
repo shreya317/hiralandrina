@@ -14,7 +14,7 @@
     filter: invert(100%)
 }
 
-.VideoModal button {
+button {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
@@ -26,7 +26,7 @@
  * 1. Show the overflow in Edge.
  */
 
-.VideoModal button { /* 1 */
+button { /* 1 */
   overflow: visible;
 }
 
@@ -35,7 +35,7 @@
  * 1. Remove the inheritance of text transform in Firefox.
  */
 
-.VideoModal button { /* 1 */
+button { /* 1 */
   text-transform: none;
 }
 
@@ -43,13 +43,13 @@
  * Correct the inability to style clickable types in iOS and Safari.
  */
 
-.VideoModal button {
+button {
   -webkit-appearance: button;
 }
 
 .VideoModal button {
     display: flex;
-    font-family: 'Frank Ruhl Libre', serif;
+    font-family: 'Lato', sans-serif;
     border-radius: 5px;
     text-align: center;
     cursor: pointer;
