@@ -5,23 +5,64 @@
     background-color: black;
 }
 
-.VideoModal iframe {
-    border: none;
+.VideoModal button:hover {
+    color: white;
+    background-color: #2747ad;
+}
+
+.VideoModal button:hover .VideoModal-arrow {
+    filter: invert(100%)
 }
 
 .VideoModal button {
-    font-family: 'Frank Ruhl Libre', serif;
-    height: 30px;
-    border-radius: 5px;
-    margin: 10px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    text-decoration: none;
-    padding: 5px 32px 5px 32px;
-    margin-top: 40px;
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
-.VideoModal button:hover {
-    color: blue;
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+.VideoModal button { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+.VideoModal button { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+.VideoModal button {
+  -webkit-appearance: button;
+}
+
+.VideoModal button {
+    display: flex;
+    font-family: 'Frank Ruhl Libre', serif;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 28px 5px 28px;
+    margin-top: 40px;
+    background-color:white;
+    border: none;
+    height: 50px;
+}
+
+.VideoModal-arrow {
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+    color: black;
 }
