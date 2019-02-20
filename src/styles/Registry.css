@@ -1,31 +1,32 @@
 .Registry {
+    position: fixed; 
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/registry/registry-bg.jpg");
+    background-position: center top;
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    padding-top: 5%;
+    justify-content: center;
 }
 
 .Registry-title {
+    padding-top: 5%;
     font-family: 'Sacramento', cursive;
+    font-size: 3.9em;
+    color: white;
+    /* position: relative; */
     text-align: center;
-    font-size: 3.5em;
-}
-
-.Registry-comingsoon {
-    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./../media/registry/IMG_8043.jpg");
-    flex-grow: 1;
-    background-size: cover;
-    align-items: center;
+    /* left: -20%; */
+    margin: 5%;
 }
 
 .Registry-comingsoon {
     font-family: 'Sacramento', cursive;
-    font-size: 1.5em;
+    font-size: 1.7em;
     text-align: center;
-}
-
-.Registry-comingsoon h1{
-    margin: 30%;
+    color: white;
 }

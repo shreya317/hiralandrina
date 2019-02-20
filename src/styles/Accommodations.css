@@ -1,42 +1,103 @@
 .Accommodations {
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    padding-top: 5%;
+    position: fixed; 
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/acc/acc.jpg");
+    background-position: center top;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 .Accommodations-title {
+    padding-top: 5%;
     font-family: 'Sacramento', cursive;
+    font-size: 3.9em;
+    color: white;
     text-align: center;
-    font-size: 3.5em;
+    margin: 5%;
 }
 
 .Accommodations-info {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 5%;
+    color: white;
+    margin: 5%;
+
 }
 
 .Accommodations-desc {
     font-family: 'Lato', sans-serif;
     text-align: center;
     margin-bottom: 5%;
-}
-
-.Accommodations button {
-    font-family: 'Lato', sans-serif;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 14px;
-    cursor: pointer;
-    text-decoration: none;
-    padding: 5px 20px 5px 20px;
-    text-decoration: none;
+    font-size: 18px;
 }
 
 .Accommodations-phone,
 .Accommodations h3 {
-    color:  #2747ad;
+    color:  white;
+}
+
+.Accommodations-desc img {
+    border-radius: 5px;
+}
+
+button {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button {
+    -webkit-appearance: button;
+  }
+
+.Accommodations button {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+    /* margin-top: 40px; */
+    background-color:white;
+    border: none;
+    height: 30px;
+    color: black;
+}
+
+.Accommodations-arrow {
+    height: 12px;
+    width: 12px;
+    margin-left: 5px;
+    color: black;
+}
+
+.Accommodations button:hover {
+    background-color: #F6DCD7;
+}
+
+.Accommodations-book {
+    margin: 50px 0 50px 0;
 }

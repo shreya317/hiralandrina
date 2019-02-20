@@ -1,12 +1,20 @@
 .Photos {
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    padding-top: 5%;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    position: fixed; 
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/weddingparty/wp-bg.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    align-items: center;
 }
 
 .Photos-title {
-    font-family: 'Sacramento', cursive;
     text-align: center;
-    font-size: 3.5em;
+    padding-top: 5%;
+    font-family: 'Sacramento', cursive;
+    font-size: 3.9em;
+    color: white;
+    margin: 5%;
 }

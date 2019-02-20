@@ -1,17 +1,3 @@
-.WeddingParty {
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    flex-direction: column;
-    padding-top: 5%;
-}
-
-.WeddingParty-title {
-    font-family: 'Sacramento', cursive;
-    text-align: center;
-    font-size: 3.5em;
-}
-
 .WeddingParty-info {
     font-family: 'Lato', sans-serif;
     display: flex;
@@ -25,18 +11,49 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    color: white;
+}
+
+.WeddingParty-desc p {
+    font-size: 18px;
 }
 
 .WeddingParty-info-section{
     font-family: 'Sacramento', cursive;
     font-size: 2.5em;
     text-align: center;
-    color: #2747ad;
+    color:white;
 }
 
 .WeddingParty-name {
     margin-bottom: 0px;
     text-align: center;
+} 
+
+.WeddingParty {
+    position: fixed; 
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/photos/photos-bg.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.WeddingParty-title {
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Sacramento', cursive;
+    font-size: 3.9em;
+    color: white;
+    left: -20%;
+    margin: 5%;
+}
+
+.WeddingParty img {
+    border-radius: 5px;
 }
 
 /* Medium screens  */

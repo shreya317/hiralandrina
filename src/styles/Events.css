@@ -1,94 +1,98 @@
 .Events {
-    display: flex;
-    flex-direction: column;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
+    position: fixed; 
+    /* top: 0;  */
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/events/events.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.Events-title {
     padding-top: 5%;
-}
-
-.Events-header {
     font-family: 'Sacramento', cursive;
+    /* position: relative; */
     text-align: center;
-    font-size: 3.5em;
-}
-
-.Events-desc {
-    display: flex;
-    direction: row;
+    /* left: -20%; */
     margin: 5%;
-    align-items: center;
+    font-size: 3.9em;
+    color: white;
 }
 
-.Events-sangeet {
-    flex-grow: 1;
-    background-position: center bottom;
-    background-size: cover;
-    align-items: center;
-    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./../media/events/orange.jpg");
-  }
-
-.Events-wedding {
-    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./../media/events/blue.jpg");
-    flex-grow: 1;
-    background-position: center bottom;
-    background-size: cover;
-    align-items: center;
-    background-color: transparent;
-}
-
+.Events-sangeet, .Events-wedding,
 .Events-reception {
-    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./../media/events/red.jpg");
-    flex-grow: 1;
-    background-position: center bottom;
-    background-size: cover;
-    align-items: center;
-    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 5%;
 }
 
-.Events-sangeet .Events-desc,
-.Events-reception .Events-desc {
-    text-align: right;
-    margin-right: 18%;
-    justify-content: flex-end;
-}
-
-.Events-wedding .Events-desc {
-    margin-left: 18%;
+.Event-header {
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
 }
 
 .Event-text {
-    font-family: 'Frank Ruhl Libre', serif;
-    text-align: center;
-    font-size: 1em;
-    font-weight: bold
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
 }
 
-.Event-title {
-    font-family: 'Sacramento', cursive;
-    font-size: 1.9em;
-}
-
-.Events-sangeet .Event-title,
-.Events-reception .Event-title,
-.Events-wedding .Event-title {
-    margin-right: 4%;
-}
-
-.Events-sangeet,
-.Events-reception,
-.Events-wedding {
-   margin-bottom: 20px;
-}
+button {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button {
+    -webkit-appearance: button;
+  }
 
 .Events button {
-    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
     border-radius: 5px;
     text-align: center;
-    font-size: 16px;
     cursor: pointer;
-    text-decoration: none;
     padding: 5px 20px 5px 20px;
+    /* margin-top: 40px; */
+    background-color:white;
     border: none;
-    background-color: white;
+    height: 30px;
+    color: black;
 }
+
+.Events-arrow {
+    height: 12px;
+    width: 12px;
+    margin-left: 5px;
+    color: black;
+}
+
+.Events button:hover {
+    background-color: #F6DCD7;
+}
+

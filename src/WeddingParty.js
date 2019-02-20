@@ -8,7 +8,7 @@ export const WeddingParty = () => (
         <div className='WeddingParty-info'>
             <div className='WeddingParty-desc'>
                 <h2 className='WeddingParty-info-section'>Rina's Family</h2>
-                <div className='WeddingParty-img'><a href="" title=""><img height="400" src={require("./media/weddingparty/soni-family.jpg")} alt="Rina's Parents" title="Rina's Parents" /></a></div>
+                <div className='WeddingParty-img'><a href="" title=""><img height="350" src={require("./media/weddingparty/soni-family.jpg")} alt="Rina's Parents" title="Rina's Parents" /></a></div>
                 <p className='WeddingParty-name'>Parents: Mukesh & Bharati Soni</p>
                 <p className='WeddingParty-name'>Brother: Ravi Soni</p>
                 <p></p>
@@ -38,7 +38,7 @@ export const WeddingParty = () => (
             </div>
             <div className='WeddingParty-desc'>
                 <h2 className='WeddingParty-info-section'>Hiral's Family</h2>
-                <div className='WeddingParty-img'><a href="" title=""><img height="400" src={require("./media/weddingparty/pithadia-family.jpg")} alt="Rina's Parents" title="Rina's Parents" /></a></div>
+                <div className='WeddingParty-img'><a href="" title=""><img height="350" src={require("./media/weddingparty/pithadia-family.jpg")} alt="Rina's Parents" title="Rina's Parents" /></a></div>
                 <p className='WeddingParty-name'>Parents: Snehal and Asha Pithadia</p>
                 <p className='WeddingParty-name'>Brother & Sister-in-law: Amit and Namrata Pithadia </p>
                 <p className='WeddingParty-name'>Brother: Sagar Pithadia </p>
