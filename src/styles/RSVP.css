@@ -1,7 +1,7 @@
-.Registry {
+.Rsvp {
     position: fixed; 
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/registry/registry-bg.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/rsvp/rsvp-bg.jpg");
     background-position: center top;
     background-size: cover;
     align-items: center;
@@ -13,16 +13,18 @@
     justify-content: center;
 }
 
-.Registry-title {
+.Rsvp-title {
     padding-top: 5%;
     font-family: 'Sacramento', cursive;
     font-size: 3.9em;
     color: white;
+    /* position: relative; */
     text-align: center;
+    /* left: -20%; */
     margin: 5%;
 }
 
-.Registry-comingsoon {
+.Rsvp-comingsoon {
     font-family: 'Sacramento', cursive;
     font-size: 1.7em;
     text-align: center;

@@ -9,6 +9,7 @@ import {WeddingParty} from './WeddingParty';
 import {OurStory} from './OurStory';
 import {Photos} from './Photos';
 import {Registry} from './Registry';
+import {RSVP} from './RSVP';
 // CSS
 import './styles/NavBar.css'
 
@@ -42,6 +43,9 @@ export const NavBar = () => (
 						<li className='NavBar-option'>
 							<Link to="/registry/">Registry</Link>
 						</li>
+						<li className='NavBar-option'>
+							<Link to="/rsvp/">RSVP</Link>
+						</li>
 					</ul>
 				</nav>
 			</div>
@@ -52,6 +56,7 @@ export const NavBar = () => (
 			<Route path="/ourstory/" component={OurStory} />
 			<Route path="/photos/" component={Photos} />
 			<Route path="/registry/" component={Registry} />
+			<Route path='/rsvp/' component={RSVP}/>
 		</div>
 	</Router>
 )
