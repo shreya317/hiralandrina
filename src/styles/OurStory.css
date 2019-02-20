@@ -1,14 +1,28 @@
 .OurStory {
-    display: flex;
-    flex-direction: column;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    padding-top: 5%;
+    position: fixed; 
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/ourstory/os-bg2.jpg");
+    background-position: center bottom;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 .OurStory-title {
+    padding-top: 5%;
     font-family: 'Sacramento', cursive;
+    font-size: 3.9em;
+    color: white;
     text-align: center;
-    font-size: 3.5em;
+    margin: 5%;
 }
+
+.OurStory-subtitle {
+    color: white;
+    text-align: center;
+    margin: 5%;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 18px;
+}
+

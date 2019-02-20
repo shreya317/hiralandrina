@@ -1,6 +1,5 @@
 .Events {
     position: fixed; 
-    /* top: 0;  */
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/events/events.jpg");
     background-position: center bottom;
@@ -13,9 +12,7 @@
 .Events-title {
     padding-top: 5%;
     font-family: 'Sacramento', cursive;
-    /* position: relative; */
     text-align: center;
-    /* left: -20%; */
     margin: 5%;
     font-size: 3.9em;
     color: white;
