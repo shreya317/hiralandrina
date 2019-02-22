@@ -30,3 +30,17 @@
     text-align: center;
     color: white;
 }
+
+/* Medium screens  */
+@media all and (max-width: 800px) {
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+    .Rsvp {
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/rsvp/rsvp-bg-mobile.jpg");
+    }
+    .Rsvp-comingsoon {
+        font-size: 1.2em;
+    }
+}

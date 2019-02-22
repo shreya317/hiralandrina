@@ -28,3 +28,14 @@
     text-align: center;
     color: white;
 }
+
+/* Medium screens  */
+@media all and (max-width: 800px) {
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+    .Registry-comingsoon {
+        font-size: 1.2em;
+    }
+}
