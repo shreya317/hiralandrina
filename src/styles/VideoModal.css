@@ -37,3 +37,21 @@
 a {
   text-decoration: none;
 }
+
+/* Medium screens  */
+@media all and (max-width: 800px) {
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+    .VideoModal button {
+        display: flex;
+        margin-top: 40px;
+        font-size: 14px;
+    }
+
+    video {
+        height: 300px;
+        padding-bottom: 400px;
+    }
+}
