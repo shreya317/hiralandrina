@@ -12,6 +12,7 @@ export const OurStory = () =>(
             </p>
             <p>Here is the story of how their separate paths become one...</p>
         </div>
+        <div className='OurStory-timeline'>
         <Timeline lineColor={'#ddd'}>
             <TimelineItem
                 key="001"
@@ -94,5 +95,6 @@ export const OurStory = () =>(
                 </p>
             </TimelineItem>
         </Timeline>
+        </div>
     </div>
 );

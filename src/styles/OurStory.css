@@ -47,9 +47,6 @@
         font-size: 3em;
     }
 
-    .Event-title {
-        font-size: 24px;
-    }
 
     .OurStory-subtitle {
         font-size: 16px;
@@ -57,6 +54,10 @@
 
     .OurStory-img img {
         height: 200px;
+    }
+
+    .OurStory-timeline {
+        padding-bottom: 30%;
     }
 }
 
