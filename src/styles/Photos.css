@@ -18,3 +18,37 @@
     color: white;
     margin: 5%;
 }
+
+/* Medium screens  */
+@media all and (max-width: 800px) {
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+    .Photos {
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/weddingparty/wp-bg-mobile.jpg");
+        display: flex;
+        flex-direction: column;
+        align-content: center;      
+    }
+
+    .Photos-title {
+        padding-top: 40%;
+        font-family: 'Sacramento', cursive;
+        text-align: center;
+        margin: 5%;
+        font-size: 3em;
+    }
+
+    .Event-title {
+        font-size: 24px;
+    }
+
+    .OurStory-subtitle {
+        font-size: 16px;
+    }
+
+    .OurStory-img img {
+        height: 200px;
+    }
+}
