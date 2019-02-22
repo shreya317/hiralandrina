@@ -22,3 +22,25 @@
     margin-left: 10%;
     margin-top: 30%;
 }
+
+/* Medium screens  */
+@media all and (max-width: 800px) {
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+    .Home-main {
+        background-image: url("./../media/home-mobile.jpg");  
+        display: flex;
+        flex-direction: column;
+        align-content: center;      
+    }
+
+    .Home-names {
+        margin-top: 0;
+        top: 200px;
+        margin-left: 0;
+        font-size: 2em;
+        text-align: center;
+    }
+}

@@ -69,4 +69,7 @@
       /* On small screens, we are no longer using row direction but column */
       flex-wrap: wrap;
     }
+    .NavBar-main {
+        display: none;
+    }
   }
