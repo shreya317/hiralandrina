@@ -19,7 +19,7 @@ export const Accommodations = () => (
                     <p>and mention the Soni & Pithadia Wedding</p>
                 </div>
 
-                <img height="300" src={require("./media/acc/hotel.png")} alt="hotel" title="hotel" />
+                <img className='Acc-hotel' height="300" src={require("./media/acc/hotel.png")} alt="hotel" title="hotel" />
             </div>
         </div>
         <div className='Accommodations-info'>

@@ -101,3 +101,41 @@ button {
 .Accommodations-book {
     margin: 50px 0 50px 0;
 }
+
+/* Medium screens  */
+@media all and (max-width: 800px) {
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+    .Accommodations {
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/acc/acc-mobile.jpg");
+        display: flex;
+        flex-direction: column;
+        align-content: center;      
+    }
+
+    .Accommodations-title {
+        padding-top: 40%;
+        font-family: 'Sacramento', cursive;
+        text-align: center;
+        margin: 5%;
+        font-size: 3em;
+    }
+
+    .Event-header {
+        font-size: 24px;
+    }
+
+    .Accommodations-desc {
+        font-size: 16px;
+    }
+
+    .Accommodations button {
+        font-size: 12px;
+    }
+
+    .Accommodations img.Acc-hotel {
+        height: 200px;
+    }
+}
