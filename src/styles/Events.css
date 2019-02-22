@@ -103,7 +103,7 @@ button {
         background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/events/events-mobile.jpg");
         display: flex;
         flex-direction: column;
-        align-content: center;      
+        align-content: center;    
     }
 
     .Events-title {
@@ -125,6 +125,10 @@ button {
 
     .Events button {
         font-size: 12px;
+    }
+
+    .Events-reception {
+        padding-bottom: 15%;
     }
 }
 
