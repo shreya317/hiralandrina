@@ -1,3 +1,26 @@
+.WeddingParty {
+    flex-direction: column;
+    position: fixed; 
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/photos/photos-bg.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.WeddingParty-title {
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Sacramento', cursive;
+    font-size: 3.9em;
+    color: white;
+    left: -20%;
+    margin: 5%;
+}
+
 .WeddingParty-info {
     font-family: 'Lato', sans-serif;
     display: flex;
@@ -30,28 +53,6 @@
     text-align: center;
 } 
 
-.WeddingParty {
-    position: fixed; 
-    width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/photos/photos-bg.jpg");
-    background-position: center bottom;
-    background-size: cover;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-    overflow-y: auto;
-}
-
-.WeddingParty-title {
-    text-align: center;
-    padding-top: 5%;
-    font-family: 'Sacramento', cursive;
-    font-size: 3.9em;
-    color: white;
-    left: -20%;
-    margin: 5%;
-}
-
 .WeddingParty img {
     border-radius: 5px;
 }
@@ -62,5 +63,33 @@
 
 /* Small screens */
 @media all and (max-width: 500px) {
+    .WeddingParty-desc {
+        /* display: inline-block; */
+        /* flex-direction: column */
+    }
+
+    .WeddingParty-info {
+        display: inherit;
+        flex-direction: initial;
+    }
+
+    .WeddingParty-title {
+        padding-top: 40%;
+        text-align: center;
+        margin: 5%;
+        font-size: 3em;
+    }
+
+    .WeddingParty img {
+        height: 200px;
+    }
+
+    .WeddingParty-info-section{
+        font-size: 2em;
+    }
+
+    .WeddingParty p {
+        font-size: 16px;
+    }
 }
 
