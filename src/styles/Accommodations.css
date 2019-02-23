@@ -134,4 +134,8 @@ button {
     .Accommodations img.Acc-hotel {
         height: 200px;
     }
+
+    .Accommodations-container {
+        padding-bottom: 30%;
+    }
 }

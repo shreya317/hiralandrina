@@ -63,9 +63,8 @@
 
 /* Small screens */
 @media all and (max-width: 500px) {
-    .WeddingParty-desc {
-        /* display: inline-block; */
-        /* flex-direction: column */
+    .WeddingParty {
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/photos/photos-bg-mobile.jpg");
     }
 
     .WeddingParty-info {
@@ -90,6 +89,10 @@
 
     .WeddingParty p {
         font-size: 16px;
+    }
+
+    .WeddingParty-info {
+        padding-bottom: 30%;
     }
 }
 

@@ -4,6 +4,7 @@ import './styles/Accommodations.css'
 
 export const Accommodations = () => (
     <div className='Accommodations'>
+        <div className='Accommodations-container'>
         <h1 className='Accommodations-title'>Accommodations</h1>
         <div className='Accommodations-info'>
             <div className='Accommodations-desc'>
@@ -30,6 +31,7 @@ export const Accommodations = () => (
                 <p>Snehal Pithadia <b className='Accommodations-phone'> 312- 388-4838</b></p>
                 <p>Mukesh Soni <b className='Accommodations-phone'> 224-202-4466</b></p>
             </div>
+        </div>
         </div>
     </div>    
 );

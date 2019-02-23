@@ -35,6 +35,9 @@
 
 /* Small screens */
 @media all and (max-width: 500px) {
+    .Registry {
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/registry/registry-bg-mobile.jpg");
+    }
     .Registry-comingsoon {
         font-size: 1.2em;
     }
