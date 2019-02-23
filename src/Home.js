@@ -6,7 +6,10 @@ export default class Home extends Component {
         return (
             <div className='Home'>
                 <div className='Home-main'>
-                    <div className='Home-names'><h1>Rina & Hiral</h1></div>
+                    <div className='Home-info'>
+                        <h1 className='Home-names'>Rina & Hiral</h1>
+                        <h3 className='Home-date'> July 6th, 2019</h3>
+                    </div>
                 </div>
             </div>
         )
