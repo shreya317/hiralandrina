@@ -121,6 +121,7 @@ button {
         text-align: center;
         margin: 5%;
         font-size: 3em;
+        padding-bottom: 35px;
     }
 
     .Accommodations-desc {
