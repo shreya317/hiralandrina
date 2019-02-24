@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     background-color: black;
+    height: 100vh;
 }
 
 .VideoModal button:hover {
@@ -56,8 +57,7 @@ a {
         font-size: 14px;
     }
 
-    /* video {
-        height: 300px;
-        padding-bottom: 400px;
-    } */
+    .VideoModal video {
+        margin-top: 20%;
+    }
 }
