@@ -2,18 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: black;
-    height: 100vh;
 }
 
 .VideoModal button:hover {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
 }
 
 .VideoModal video {
     width: 100%;
-    height: auto;
+    /* height: auto; */
+    height: 800px;
 }
 
 .VideoModal button {
@@ -26,8 +25,8 @@
     background-color: Transparent;
     border: none;
     height: 50px;
-    color: white;
-    border: 1px solid white;
+    color: black;
+    border: 1px solid black;
 }
 
 .VideoModal-arrow {
@@ -42,11 +41,32 @@ a {
 }
 
 /* Medium screens  */
+@media all and (max-width: 1000px) {
+    .VideoModal {
+        height: 100vh;
+    }
+
+    .VideoModal video {
+        height: auto;
+    }
+}
+
+/* Medium screens  */
 @media all and (max-width: 800px) {
+    .VideoModal {
+        height: 100vh;
+    }
+
+    .VideoModal video {
+        height: auto;
+    }
 }
 
 /* Small screens */
 @media all and (max-width: 500px) {
+    .VideoModal {
+        height: 100vh;
+    }
     .VideoModal button {
         display: flex;
         margin-top: 40px;
@@ -55,5 +75,6 @@ a {
 
     .VideoModal video {
         margin-top: 20%;
+        height: auto;
     }
 }
