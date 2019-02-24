@@ -2,7 +2,8 @@
     position: fixed; 
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/acc/acc.jpg");
-    background-position: center top;
+    background-position: center bottom;
+    background-size: cover;
     align-items: center;
     height: 100vh;
     overflow: hidden;
@@ -104,7 +105,7 @@ button {
 /* Small screens */
 @media all and (max-width: 500px) {
     .Accommodations {
-        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/acc/acc-mobile.jpg");
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/acc/acc.jpg");
         display: flex;
         flex-direction: column;
         align-content: center;      

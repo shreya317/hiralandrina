@@ -4,7 +4,7 @@
     overflow-y: auto;
     position: fixed; 
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/weddingparty/wp-bg.jpg");
+    /* background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/weddingparty/wp-bg.jpg"); */
     background-position: center bottom;
     background-size: cover;
     align-items: center;
@@ -26,7 +26,7 @@
 /* Small screens */
 @media all and (max-width: 500px) {
     .Photos {
-        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/weddingparty/wp-bg-mobile.jpg");
+        /* background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/weddingparty/wp-bg-mobile.jpg"); */
     }
 
     .Photos-title {

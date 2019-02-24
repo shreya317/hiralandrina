@@ -1,7 +1,7 @@
 .Events {
     position: fixed; 
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/events/events.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/events/Events.jpg");
     background-position: center bottom;
     background-size: cover;
     height: 100vh;
@@ -100,7 +100,7 @@ button {
 /* Small screens */
 @media all and (max-width: 500px) {
     .Events {
-        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/events/events-mobile.jpg");
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/events/events-bg-mobile.jpg");
         display: flex;
         flex-direction: column;
         align-content: center;    

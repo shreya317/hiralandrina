@@ -6,7 +6,7 @@
 
 .Home-main {
     flex-grow: 1;
-    background-image: url("./../media/rsvp/rsvp-bg.jpg");
+    background-image: url("./../media/rsvp/home-bg.jpg");
     background-position: center top;
     background-size: cover;
     align-items: center;
@@ -41,7 +41,7 @@ h3.Home-date {
 /* Small screens */
 @media all and (max-width: 500px) {
     .Home-main {
-        background-image: url("./../media/rsvp/rsvp-bg-mobile.jpg");  
+        background-image: url("./../media/rsvp/home-bg-mobile.jpg");  
         display: flex;
         flex-direction: column;
         align-content: center;      

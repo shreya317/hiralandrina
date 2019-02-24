@@ -2,8 +2,8 @@
     flex-direction: column;
     position: fixed; 
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/photos/photos-bg.jpg");
-    background-position: center bottom;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/weddingparty/wp-bg.jpg");
+    background-position: center top;
     background-size: cover;
     align-items: center;
     height: 100vh;
@@ -65,7 +65,7 @@
 /* Small screens */
 @media all and (max-width: 500px) {
     .WeddingParty {
-        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/photos/photos-bg-mobile.jpg");
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/weddingparty/wp-bg-mobile.jpg");
     }
 
     .WeddingParty-info {
