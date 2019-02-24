@@ -26,13 +26,13 @@ export const OurStory = () =>(
                     textAlign: 'center',
                 }}
             >
-                <div className='OurStory-img'><img height="350" src={require("./media/ourstory/Summer-2013-1.JPG")} alt="Summer-2013-1" title="Summer-2013-1" /></div>
+                <div className='OurStory-img'><img height="350" src={require("./media/ourstory/Summer-2013-1.JPG")} alt="" title="" /></div>
                 <p>
                     Rina and Hiral reconnected after years of being out of touch and hit it off right away! Rina, having lived
                     in Chicago as an undergraduate student at DePaul (GO BLUE DEMONS!), re-introduced Chicago to Hiral
                     who moved to Ann Arbor, MI (GO BLUE!) after high school.
                 </p>
-                <div className='OurStory-img'><img height="350" src={require("./media/ourstory/Summer-2013-2.JPG")} alt="Summer-2013-2" title="Summer-2013-2" /></div>
+                <div className='OurStory-img'><img height="350" src={require("./media/ourstory/Summer-2013-2.JPG")} alt="" title="" /></div>
 
             </TimelineItem>
             <TimelineItem
@@ -47,13 +47,13 @@ export const OurStory = () =>(
                     textAlign: 'center',
                 }}
             >
-                <div className='OurStory-img'><img height="350" src={require("./media/ourstory/2013-2014-1.JPG")} alt="2013-2014-1" title="2013-2014-1" /></div>
+                <div className='OurStory-img'><img height="350" src={require("./media/ourstory/2013-2014-1.JPG")} alt="" title="" /></div>
                 <p>
                     Hiral returned to Michigan to finish school and stayed in touch with Rina through late night FaceTime
                     calls, SWEET gestures and visits along the way. Hiral was super excited to return the favor to Rina by
                     showing her the charm of Ann Arbor.
                 </p>
-                <div className='OurStory-img'><img height="350" src={require("./media/ourstory/2013-2014-2.JPG")} alt="2013-2014-2" title="2013-2014-2" /></div>
+                <div className='OurStory-img'><img height="350" src={require("./media/ourstory/2013-2014-2.JPG")} alt="" title="" /></div>
 
             </TimelineItem>
             <TimelineItem
@@ -68,13 +68,13 @@ export const OurStory = () =>(
                     textAlign: 'center',
                 }}
             >
-                <div className='OurStory-img'><img height="300" src={require("./media/ourstory/fall-2016-1.jpg")} alt="fall-2016-1" title="fall-2016-1" /></div>
+                <div className='OurStory-img'><img height="300" src={require("./media/ourstory/fall-2016-1.jpg")} alt="" title="" /></div>
                 <p>
                     After two amazing years together in Chicago, Rina started a new job in the city and life took Hiral to New
                     York for a new job opportunity. While changes were on the horizon, Hiral knew he wanted the
                     relationship with Rina to be forever. On October 15th, Hiral popped the question in Ann Arbor, where
                     they fell in love. Rina said YES!
-                </p>    <div className='OurStory-img'><img height="350" src={require("./media/ourstory/fall-2016-2.jpg")} alt="fall-2016-2" title="fall-2016-2" /></div>
+                </p>    <div className='OurStory-img'><img height="350" src={require("./media/ourstory/fall-2016-2.jpg")} alt="" title="" /></div>
             </TimelineItem>
             <TimelineItem
                 key="004"
