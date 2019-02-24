@@ -6,25 +6,26 @@
 }
 
 .VideoModal button:hover {
-    color: white;
-    background-color: #2747ad;
+    color: black;
+    background-color: white;
 }
 
-.VideoModal button:hover .VideoModal-arrow {
+/* .VideoModal button:hover .VideoModal-arrow {
     filter: invert(100%)
-}
+} */
 
 .VideoModal button {
     display: flex;
     font-family: 'Lato', sans-serif;
-    border-radius: 5px;
     text-align: center;
     cursor: pointer;
     padding: 5px 28px 5px 28px;
     margin-top: 40px;
-    background-color:white;
+    background-color: Transparent;
     border: none;
     height: 50px;
+    color: white;
+    border: 1px solid white;
 }
 
 .VideoModal-arrow {

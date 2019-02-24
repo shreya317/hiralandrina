@@ -53,6 +53,7 @@
 .NavBar a:hover {
     color: #2747ad;
     cursor: pointer;
+    text-decoration: underline
 }
 
 /* Medium screens */

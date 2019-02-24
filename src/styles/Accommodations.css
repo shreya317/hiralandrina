@@ -76,26 +76,21 @@ button {
 .Accommodations button {
     font-size: 14px;
     font-family: 'Lato', sans-serif;
-    border-radius: 5px;
     text-align: center;
     cursor: pointer;
     padding: 5px 20px 5px 20px;
-    /* margin-top: 40px; */
-    background-color:white;
-    border: none;
+    background-color: Transparent;
+    border: 1px solid white;
     height: 30px;
+    color:white;
+}
+
+.Accommodations button a:hover {
     color: black;
 }
 
-.Accommodations-arrow {
-    height: 12px;
-    width: 12px;
-    margin-left: 5px;
-    color: black;
-}
-
-.Accommodations button:hover {
-    background-color: #F6DCD7;
+.Accommodations button a:visited { 
+    color: white;
 }
 
 .Accommodations-book {
