@@ -1,12 +1,14 @@
 .Photos {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     overflow: hidden;
     overflow-y: auto;
-    position: fixed; 
-    width: 100%;
+    /* position: fixed;  */
+    /* width: 100%; */
     /* background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/weddingparty/wp-bg.jpg"); */
-    background-position: center bottom;
-    background-size: cover;
+    /* background-position: center bottom; */
+    /* background-size: cover; */
     align-items: center;
 }
 
@@ -15,8 +17,13 @@
     padding-top: 5%;
     font-family: 'Sacramento', cursive;
     font-size: 3.9em;
-    color: white;
     margin: 5%;
+}
+
+.Photos-info-section{
+    font-family: 'Sacramento', cursive;
+    font-size: 2.5em;
+    text-align: center;
 }
 
 /* Medium screens  */

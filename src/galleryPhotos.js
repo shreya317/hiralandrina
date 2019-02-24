@@ -1,10 +1,14 @@
-export const PROPOSAL_IMAGES = [
+export const ENGAGEMENT_CERMEONY = [
     {
         src: require('./media/gallery/IMG_8783.jpg'),
         thumbnail: require('./media/gallery/IMG_8783.jpg'),
         thumbnailWidth: 777,
         thumbnailHeight: 1014
     },
+    
+]
+
+export const PROPOSAL_IMAGES = [
     {
         src: require('./media/gallery/IMG_18.jpg'),
         thumbnail: require('./media/gallery/IMG_18.jpg'),
