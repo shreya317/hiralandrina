@@ -151,6 +151,12 @@ export const ENGAGEMENT_SHOOT = [
 
 export const PROPOSAL_IMAGES = [
     {
+        src: require('./media/gallery/IMG_8.jpg'),
+        thumbnail: require('./media/gallery/IMG_8.jpg'),
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+    }, 
+    {
         src: require('./media/gallery/IMG_18.jpg'),
         thumbnail: require('./media/gallery/IMG_18.jpg'),
         thumbnailWidth: 888,
@@ -208,12 +214,7 @@ export const PROPOSAL_IMAGES = [
         thumbnail: require('./media/gallery/IMG_20.jpg'),
         thumbnailWidth: 777,
         thumbnailHeight: 1014
-    },    {
-        src: require('./media/gallery/IMG_8.jpg'),
-        thumbnail: require('./media/gallery/IMG_8.jpg'),
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
-    },    {
+    },   {
         src: require('./media/gallery/IMG_16.jpg'),
         thumbnail: require('./media/gallery/IMG_16.jpg'),
         thumbnailWidth: 777,
