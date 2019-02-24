@@ -16,10 +16,6 @@
     height: auto;
 }
 
-/* .VideoModal button:hover .VideoModal-arrow {
-    filter: invert(100%)
-} */
-
 .VideoModal button {
     display: flex;
     font-family: 'Lato', sans-serif;
