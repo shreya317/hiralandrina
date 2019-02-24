@@ -81,17 +81,19 @@ button {
     color:white;
 }
 
-.Events button:hover {
-    /* background-color: #F6DCD7; */
+.Events a:visited { 
+    color: white;
 }
 
-.Events button a:hover {
+.Events button:hover {
+    background: white;
     color: black;
 }
 
-.Events button a:visited { 
-    color: white;
-  }
+.Events a:hover {
+    color: black;
+    background: white;
+}
 
 /* Medium screens  */
 @media all and (max-width: 800px) {

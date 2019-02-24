@@ -86,12 +86,19 @@ button {
     color:white;
 }
 
-.Accommodations button a:hover {
+
+.Accommodations a:visited { 
+    color: white;
+}
+
+.Accommodations button:hover {
+    background: white;
     color: black;
 }
 
-.Accommodations button a:visited { 
-    color: white;
+.Accommodations a:hover {
+    color: black;
+    background: white;
 }
 
 .Accommodations-book {
