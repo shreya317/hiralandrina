@@ -54,7 +54,8 @@
 } 
 
 .WeddingParty img {
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    border: 8px white solid;
 }
 
 /* Medium screens  */

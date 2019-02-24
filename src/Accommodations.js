@@ -25,7 +25,7 @@ export const Accommodations = () => (
         </div>
         <div className='Accommodations-info'>
             <div className='Accommodations-desc'>
-                <p>If you need additional help or have questions regarding accmmodations, please contact</p>
+                <p>If you need additional help or have questions regarding accommodations, please contact</p>
                 <h4>Soni Family</h4>
                 <p>Ravi Soni <b className='Accommodations-phone'> 650-919- 3337</b></p>
                 <p>Mukesh Soni <b className='Accommodations-phone'> 224-202-4466</b></p>
