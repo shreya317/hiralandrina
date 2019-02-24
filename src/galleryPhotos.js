@@ -155,12 +155,6 @@ export const PROPOSAL_IMAGES = [
         thumbnail: require('./media/gallery/IMG_8.jpg'),
         thumbnailWidth: 320,
         thumbnailHeight: 212
-    }, 
-    {
-        src: require('./media/gallery/IMG_18.jpg'),
-        thumbnail: require('./media/gallery/IMG_18.jpg'),
-        thumbnailWidth: 888,
-        thumbnailHeight: 888
     },
     {
         src: require('./media/gallery/IMG_1.jpg'),
@@ -168,6 +162,18 @@ export const PROPOSAL_IMAGES = [
         thumbnailWidth: 777,
         thumbnailHeight: 1014
     }, 
+    {
+        src: require('./media/gallery/IMG_19.jpg'),
+        thumbnail: require('./media/gallery/IMG_19.jpg'),
+        thumbnailWidth: 320,
+        thumbnailHeight: 212
+    }, 
+    {
+        src: require('./media/gallery/IMG_18.jpg'),
+        thumbnail: require('./media/gallery/IMG_18.jpg'),
+        thumbnailWidth: 888,
+        thumbnailHeight: 888
+    },
     {
         src: require('./media/gallery/IMG_22.jpg'),
         thumbnail: require('./media/gallery/IMG_22.jpg'),
@@ -236,12 +242,6 @@ export const PROPOSAL_IMAGES = [
         thumbnail: require('./media/gallery/IMG_8783.jpg'),
         thumbnailWidth: 777,
         thumbnailHeight: 1014
-    },
-    {
-        src: require('./media/gallery/IMG_19.jpg'),
-        thumbnail: require('./media/gallery/IMG_19.jpg'),
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
     },
     {
         src: require('./media/gallery/IMG_11.jpg'),
