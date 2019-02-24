@@ -11,7 +11,8 @@
 }
 
 .VideoModal video {
-    height: 800px;
+    width: 100%;
+    height: auto;
 }
 
 /* .VideoModal button:hover .VideoModal-arrow {
@@ -55,8 +56,8 @@ a {
         font-size: 14px;
     }
 
-    video {
+    /* video {
         height: 300px;
         padding-bottom: 400px;
-    }
+    } */
 }

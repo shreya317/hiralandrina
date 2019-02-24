@@ -11,7 +11,7 @@ export default class VideoModal extends Component {
         return (
            <div className='VideoModal'>
                 <button type='button' className='VideoModal-button' onClick={() => this.handleClick()} >ENTER RINA & HIRAL'S WEDDING WEBSITE</button>
-                <video width="100%" controls poster={require('./media/video-thumbnail.png')} controlsList="nodownload">
+                <video controls poster={require('./media/video-thumbnail.png')} controlsList="nodownload">
                     <source src={require("./media/rina-hiral.mp4")} type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>

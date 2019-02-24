@@ -38,7 +38,7 @@
 }
 
 .Accommodations-desc img {
-    border-radius: 5px;
+    border: 5px solid white;
 }
 
 button {
@@ -81,7 +81,7 @@ button {
     cursor: pointer;
     padding: 5px 20px 5px 20px;
     background-color: Transparent;
-    border: 1px solid white;
+    border: 2px solid white;
     height: 30px;
     color:white;
 }
@@ -97,6 +97,7 @@ button {
 .Accommodations-book {
     margin: 50px 0 50px 0;
 }
+
 
 /* Medium screens  */
 @media all and (max-width: 800px) {
