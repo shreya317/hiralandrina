@@ -6,15 +6,16 @@
 
 .Home-main {
     flex-grow: 1;
-    background-image: url("./../media/home.jpg");
-    background-position: center bottom;
+    background-image: url("./../media/rsvp/rsvp-bg.jpg");
+    background-position: center top;
     background-size: cover;
     align-items: center;
 }
 
 .Home-info {
     position: relative;
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    text-align: center;
     margin-top: 30%;
 }
 
@@ -22,7 +23,7 @@
 .Home-names{
     font-family: 'Sacramento', cursive;
     font-size: 100px;
-    text-align: left;
+    /* text-align: left; */
     color: white;
 }
 
@@ -40,7 +41,7 @@ h3.Home-date {
 /* Small screens */
 @media all and (max-width: 500px) {
     .Home-main {
-        background-image: url("./../media/home-mobile.jpg");  
+        background-image: url("./../media/rsvp/rsvp-bg-mobile.jpg");  
         display: flex;
         flex-direction: column;
         align-content: center;      
@@ -48,7 +49,7 @@ h3.Home-date {
 
     .Home-info {
         text-align: center;
-        top: 155px;
+        top: 355px;
         margin-top: 0;
         margin-left: 0;
     }
