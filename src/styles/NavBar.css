@@ -56,6 +56,10 @@
     text-decoration: underline
 }
 
+.NavBar a {
+    color: black;
+}
+
 /* Medium screens */
 @media all and (max-width: 800px) {
     .NavBar-options {
