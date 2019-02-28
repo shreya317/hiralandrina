@@ -7,8 +7,7 @@ export const OurStory = () =>(
     <div className='OurStory'>
         <h1 className='OurStory-title'>Our Story</h1>
         <div className='OurStory-subtitle'>
-            <p>Hiral and Rina had known each other since they were kids, but had fallen out of touch as they grew older
-                and went in separate directions.
+            <p>Hiral and Rina have known each other since they were kids, but fell out of touch as they grew older and went in separate directions.
             </p>
             <p>Here is the story of how their separate paths become one...</p>
         </div>
@@ -28,9 +27,7 @@ export const OurStory = () =>(
             >
                 <div className='OurStory-img'><img height="300" src={require("./media/ourstory/Summer-2013-1.JPG")} alt="" title="" /></div>
                 <p>
-                    Rina and Hiral reconnected after years of being out of touch and hit it off right away! Rina, having lived
-                    in Chicago as an undergraduate student at DePaul (GO BLUE DEMONS!), re-introduced Chicago to Hiral
-                    who moved to Ann Arbor, MI (GO BLUE!) after high school.
+                One summer night, Rina and Hiral ran into each other after years of being out of touch and hit it off right away! Having lived in Chicago while studying at DePaul University, Rina re-introduced the city to Hiral, who was living in Ann Arbor, MI to attend University of Michigan.
                 </p>
                 <div className='OurStory-img'><img height="300" src={require("./media/ourstory/Summer-2013-2.JPG")} alt="" title="" /></div>
 
@@ -49,9 +46,7 @@ export const OurStory = () =>(
             >
                 <div className='OurStory-img'><img height="300" src={require("./media/ourstory/2013-2014-1.JPG")} alt="" title="" /></div>
                 <p>
-                    Hiral returned to Michigan to finish school and stayed in touch with Rina through late night FaceTime
-                    calls, SWEET gestures and visits along the way. Hiral was super excited to return the favor to Rina by
-                    showing her the charm of Ann Arbor.
+                In the fall, Hiral returned to Michigan to finish school and stayed in touch with Rina through late night FaceTime calls, thoughtful gestures and visits along the way. Hiral was excited to return the favor to Rina by showing her the charm of Ann Arbor. That Spring, he graduated and moved to Chicago.
                 </p>
                 <div className='OurStory-img'><img height="300" src={require("./media/ourstory/2013-2014-2.JPG")} alt="" title="" /></div>
 
@@ -70,10 +65,7 @@ export const OurStory = () =>(
             >
                 <div className='OurStory-img'><img height="300" src={require("./media/ourstory/fall-2016-1.jpg")} alt="" title="" /></div>
                 <p>
-                    After two amazing years together in Chicago, Rina started a new job in the city and life took Hiral to New
-                    York for a new job opportunity. While changes were on the horizon, Hiral knew he wanted the
-                    relationship with Rina to be forever. On October 15th, Hiral popped the question in Ann Arbor, where
-                    they fell in love. Rina said YES!
+                After two amazing years together in Chicago, Rina started a new job in the city and life took Hiral to New York for a new job opportunity. While changes were on the horizon, Hiral knew he wanted the relationship with Rina to be forever. On October 15th, Hiral popped the question in Ann Arbor, where they fell in love. Rina said YES!
                 </p>    <div className='OurStory-img'><img height="300" src={require("./media/ourstory/fall-2016-2.jpg")} alt="" title="" /></div>
             </TimelineItem>
             <TimelineItem
@@ -89,9 +81,7 @@ export const OurStory = () =>(
                 }}
             >
                 <p>
-                    Rina moved to New York, ending their two years of long distance. While they are enjoying the new city,
-                    as a couple, they are even more enthused by planning their upcoming wedding! We can’t wait to see
-                    you all in July!
+                Rina moved to New York in early 2019,  ending their two years of long distance. While they are enjoying the Big Apple, they are even more enthused by planning their upcoming wedding! We can’t wait to see you all in July!
                 </p>
             </TimelineItem>
         </Timeline>
