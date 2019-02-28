@@ -83,6 +83,7 @@ export const OurStory = () =>(
                 <p>
                 Rina moved to New York in early 2019,  ending their two years of long distance. While they are enjoying the Big Apple, they are even more enthused by planning their upcoming wedding! We can’t wait to see you all in July!
                 </p>
+                <div className='OurStory-img'><img height="300" src={require("./media/ourstory/us.jpeg")} alt="" title="" /></div>
             </TimelineItem>
         </Timeline>
         </div>
