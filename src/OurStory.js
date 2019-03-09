@@ -27,7 +27,7 @@ export const OurStory = () =>(
             >
                 <div className='OurStory-img'><img height="300" src={require("./media/ourstory/Summer-2013-1.JPG")} alt="" title="" /></div>
                 <p>
-                One summer night, Rina and Hiral ran into each other after years of being out of touch and hit it off right away! Having lived in Chicago while studying at DePaul University, Rina re-introduced the city to Hiral, who was living in Ann Arbor, MI to attend University of Michigan.
+                One summer...while living in Chicago and studying at DePaul University; Rina reintroduced the city to Hiral, who was in Chicago for a summer internship while attending the University of Michigan in Ann Arbor, MI.
                 </p>
                 <div className='OurStory-img'><img height="300" src={require("./media/ourstory/Summer-2013-2.JPG")} alt="" title="" /></div>
 
@@ -46,7 +46,7 @@ export const OurStory = () =>(
             >
                 <div className='OurStory-img'><img height="300" src={require("./media/ourstory/2013-2014-1.JPG")} alt="" title="" /></div>
                 <p>
-                In the fall, Hiral returned to Michigan to finish school and stayed in touch with Rina through late night FaceTime calls, thoughtful gestures and visits along the way. Hiral was excited to return the favor to Rina by showing her the charm of Ann Arbor. That Spring, he graduated and moved to Chicago.
+                In the fall, Hiral returned to Michigan to finish school, but stayed in touch with Rina through late-night FaceTime calls, thoughtful gestures and visits along the way. During this time, Hiral returned the favor by showing Rina the charm of Ann Arbor. After graduating, Hiral moved to Chicago in the spring.
                 </p>
                 <div className='OurStory-img'><img height="300" src={require("./media/ourstory/2013-2014-2.JPG")} alt="" title="" /></div>
 
@@ -65,7 +65,7 @@ export const OurStory = () =>(
             >
                 <div className='OurStory-img'><img height="300" src={require("./media/ourstory/fall-2016-1.jpg")} alt="" title="" /></div>
                 <p>
-                After two amazing years together in Chicago, Rina started a new job in the city and life took Hiral to New York for a new job opportunity. While changes were on the horizon, Hiral knew he wanted the relationship with Rina to be forever. On October 15th, Hiral popped the question in Ann Arbor, where they fell in love. Rina said YES!
+                After two amazing years together in Chicago, Rina started a new job there, and a new job opportunity took Hiral to New York City. Though changes were on the horizon, Hiral knew Rina was the one. And so, on a beautiful October afternoon in Ann Arbor - the city where Hiral and Rina fell in love - Hiral popped "the question" and Rina said YES!
                 </p>    <div className='OurStory-img'><img height="300" src={require("./media/ourstory/fall-2016-2.jpg")} alt="" title="" /></div>
             </TimelineItem>
             <TimelineItem
@@ -81,7 +81,7 @@ export const OurStory = () =>(
                 }}
             >
                 <p>
-                Rina moved to New York in early 2019,  ending their two years of long distance. While they are enjoying the Big Apple, they are even more enthused by planning their upcoming wedding! We can’t wait to see you all in July!
+                In early 2019, Rina moved to New York, and now Hiral and Rina get to explore a new city together. While they have been enjoying the Big Apple, they are even more enthused to be planning their upcoming wedding!
                 </p>
                 <div className='OurStory-img'><img height="300" src={require("./media/ourstory/us.jpeg")} alt="" title="" /></div>
             </TimelineItem>
