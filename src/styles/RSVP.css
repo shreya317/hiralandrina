@@ -2,7 +2,7 @@
     position: fixed; 
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/rsvp/rsvp-bg.jpg");
-    background-position: center bottom;
+    background-position: center top;
     background-size: cover;
     align-items: center;
     height: 100vh;
@@ -10,7 +10,7 @@
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
 }
 
 .Rsvp-title {
@@ -18,16 +18,24 @@
     font-family: 'Sacramento', cursive;
     font-size: 3.9em;
     color: white;
-    /* position: relative; */
     text-align: center;
-    /* left: -20%; */
     margin: 5%;
 }
 
-.Rsvp-comingsoon {
-    font-family: 'Sacramento', cursive;
-    font-size: 1.7em;
+.Rsvp-container {
+    border: 2px solid white;
+    width: 600px;
+    padding: 25px;
+}
+
+.Rsvp-info {
+    font-family: 'Lato', sans-serif;
     text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.Rsvp a {
     color: white;
 }
 
@@ -40,7 +48,22 @@
     .Rsvp {
         background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./../media/rsvp/rsvp-bg-mobile.jpg");
     }
-    .Rsvp-comingsoon {
-        font-size: 1.2em;
+
+    .Rsvp-title {
+        padding-top: 40%;
+        font-family: 'Sacramento', cursive;
+        text-align: center;
+        margin: 5%;
+        font-size: 3em;
+        padding-bottom: 35px;
+    }
+
+    .Rsvp-container {
+        width: 300px;
+        padding: 25px;
+    }
+
+    .Rsvp-info {
+        font-size: 16px;
     }
 }
