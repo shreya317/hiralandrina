@@ -41,8 +41,7 @@
 /* Small screens */
 @media all and (max-width: 500px) {
     .Photos-title {
-        padding-top: 40%;
-        font-family: 'Sacramento', cursive;
+        padding-top: 50%;
         text-align: center;
         margin: 5%;
         font-size: 3em;
