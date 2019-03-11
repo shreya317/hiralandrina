@@ -14,17 +14,23 @@
 
 .Home-info {
     position: relative;
-    /* margin-left: 10%; */
     text-align: center;
     margin-top: 30%;
 }
 
-
 .Home-names{
     font-family: 'Sacramento', cursive;
     font-size: 100px;
-    /* text-align: left; */
     color: white;
+    margin: 0;
+}
+
+h3.Home-countdown {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 27px;
+    margin: 0;
+    font-style: italic;
 }
 
 h3.Home-date {
@@ -64,5 +70,13 @@ h3.Home-date {
         display: inline;
         color: white;
         font-size: 16px;
+        font-style: italic;
+    }
+
+    h3.Home-countdown {
+        font-family: 'Lato', sans-serif;
+        color: white;
+        font-size: 16px;
+        margin: 5px;
     }
 }

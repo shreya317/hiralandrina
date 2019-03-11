@@ -18,7 +18,7 @@ export const NavBar = () => (
 			<div className='NavBar'>
 				<nav className='NavBar-container'>
 					<div className='NavBar-main'>
-						#HiralKiSoni • #RinaKaHiral • July 6th, 2019 • Oakbrook Terrace, Illinois
+						#HiralKiSoni • #RinaKaHiral • July 6th, 2019 • Oakbrook Terrace, IL
 					</div>
 					<ul className='NavBar-options'>
 						<li className='NavBar-option'>
