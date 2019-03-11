@@ -25,12 +25,8 @@
     margin: 0;
 }
 
-h3.Home-countdown {
-    font-family: 'Lato', sans-serif;
-    color: white;
-    font-size: 27px;
-    margin: 0;
-    font-style: italic;
+.Home-cd-mobile {
+    display: none;
 }
 
 h3.Home-date {
@@ -40,6 +36,10 @@ h3.Home-date {
 /* Medium screens  */
 @media all and (max-width: 800px) {
     .Home-date {
+        display: none;
+    }
+
+    .Home-cd-normal {
         display: none;
     }
 }
@@ -73,10 +73,11 @@ h3.Home-date {
         font-style: italic;
     }
 
-    h3.Home-countdown {
-        font-family: 'Lato', sans-serif;
-        color: white;
-        font-size: 16px;
-        margin: 5px;
+    .Home-cd-normal {
+        display: none;
+    }
+
+    .Home-cd-mobile {
+        display: block;
     }
 }
