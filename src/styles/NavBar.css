@@ -80,4 +80,8 @@
     .NavBar-main {
         display: none;
     }
+
+    .NavBar {
+        border-bottom: none;
+    }
   }
