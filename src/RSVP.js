@@ -12,6 +12,8 @@ export const RSVP = () =>(
                 <p><b><a href = "mailto: RinaHiral2019@gmail.com">RinaHiral2019@gmail.com</a></b></p>
                 <p>with the events and the names of guests that will be attending.</p>
                 <p>Thank you!</p>
+                <img height="100" src={require("./media/logo1.png")} alt="" title="" />
+
             </div>
         </div>
     </div>

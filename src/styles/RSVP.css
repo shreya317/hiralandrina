@@ -65,4 +65,8 @@
     .Rsvp-info {
         font-size: 16px;
     }
+
+    .Rsvp-info img {
+        height: 50px;
+    }
 }
